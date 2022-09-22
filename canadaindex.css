@@ -1,0 +1,30 @@
+body{
+    background-color:  #16191e;
+    color: #efefef;
+}
+
+.mainbox{
+    display: flex;
+    column-gap: 10px;
+}
+
+a{
+    padding: 5px;
+    margin-top: 20px;
+    background: #efefef;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    color: #444;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: -6px -px 1px rgba(255, 255, 255, .7),
+                1px 1px 1px rgba(255, 255, 255, .5),
+                1px 1px 1px rgba(255, 255, 255, .075),
+                1px 1px 1px rgba(0, 0, 0, .15);
+}
